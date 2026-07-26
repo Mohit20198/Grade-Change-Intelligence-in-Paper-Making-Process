@@ -1,6 +1,6 @@
 # Grade Change Intelligence in Paper Making Process 🏭📄
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python) ![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit) ![LightGBM](https://img.shields.io/badge/LightGBM-Predictive_Model-green) ![Hackathon](https://img.shields.io/badge/Status-Hackathon_Project-orange)
+
 
 An industrial intelligence pipeline and simulation dashboard designed to provide **early warnings** and **actionable optimizations** for off-spec basis weight risks during paper machine grade changes.
 
@@ -43,3 +43,7 @@ The project includes a rich **Streamlit Dashboard** featuring:
    cd simulator
    python -m streamlit run dashboard.py
    ```
+   <img width="1917" height="871" alt="Screenshot 2026-07-26 213527" src="https://github.com/user-attachments/assets/dacaf80d-39a5-48d8-8035-2cd4de2caed3" />
+<img width="1917" height="866" alt="Screenshot 2026-07-26 213548" src="https://github.com/user-attachments/assets/4a778586-00da-486a-af9d-d04f9102e603" />
+<img width="1917" height="866" alt="Screenshot 2026-07-26 213429" src="https://github.com/user-attachments/assets/48cc87f5-63b9-4340-aad6-204b5842337b" />
+
