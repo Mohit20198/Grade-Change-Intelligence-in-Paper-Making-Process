@@ -1,0 +1,75 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "stock_flow"
+    },
+    {
+      "id": "steam_pressure"
+    },
+    {
+      "id": "machine_speed"
+    },
+    {
+      "id": "filler_flow"
+    },
+    {
+      "id": "basis_weight"
+    },
+    {
+      "id": "moisture"
+    },
+    {
+      "id": "ash"
+    }
+  ],
+  "edges": [
+    {
+      "lag_seconds": 5,
+      "p_value": 3.8843931745187504e-07,
+      "delta_r2": 0.058943224295423646,
+      "disturbance": "stock_surge",
+      "edge_type": "documented_loop",
+      "source": "stock_flow",
+      "target": "basis_weight"
+    },
+    {
+      "lag_seconds": 60,
+      "p_value": 1.73436714436962e-07,
+      "delta_r2": 0.0050680236571617465,
+      "disturbance": "steam_sag",
+      "edge_type": "documented_loop",
+      "source": "steam_pressure",
+      "target": "moisture"
+    },
+    {
+      "lag_seconds": 15,
+      "p_value": 1.3748518579057893e-67,
+      "delta_r2": 0.31343260609188206,
+      "disturbance": "speed_hunting",
+      "edge_type": "documented_loop",
+      "source": "machine_speed",
+      "target": "basis_weight"
+    },
+    {
+      "lag_seconds": 45,
+      "p_value": 0.007834961580770532,
+      "delta_r2": 0.002833207302817442,
+      "disturbance": "speed_hunting",
+      "edge_type": "newly_discovered",
+      "source": "machine_speed",
+      "target": "moisture"
+    },
+    {
+      "lag_seconds": 5,
+      "p_value": 0.0190097248331049,
+      "delta_r2": 0.004619810515087752,
+      "disturbance": "steam_sag",
+      "edge_type": "documented_loop",
+      "source": "filler_flow",
+      "target": "ash"
+    }
+  ]
+}

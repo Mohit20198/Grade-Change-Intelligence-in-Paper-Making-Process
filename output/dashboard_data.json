@@ -1,0 +1,16 @@
+{
+  "classifier_auc": 0.9838,
+  "classifier_recall": 0.834,
+  "classifier_precision": 0.7098,
+  "classifier_f1": 0.7669,
+  "classifier_horizon": "5 minutes (300s)",
+  "lead_time_n_tp": 6,
+  "lead_time_n_total": 9,
+  "lead_time_mean_min": 3.5,
+  "lead_time_median_min": 4.2,
+  "lead_time_range": "0.5 - 5.0 min",
+  "stab_reduction_avg_pct": 1.9,
+  "stab_reduction_med_pct": 1.6,
+  "stab_reduction_n_events": 6,
+  "note": "300s lookahead model retrained 2026-07-26. 60s model retracted: was a detector not predictor. All metrics on held-out validation set."
+}
