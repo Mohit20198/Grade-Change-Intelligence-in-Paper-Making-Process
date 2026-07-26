@@ -36,12 +36,11 @@ The project includes a rich **Streamlit Dashboard** featuring:
 
 1. **Install Dependencies:**
    ```bash
-   pip install -r simulator/requirements.txt
+   pip install -r requirements.txt
    ```
 2. **Launch the Dashboard:**
    ```bash
-   cd simulator
-   python -m streamlit run dashboard.py
+   streamlit run dashboard/dashboard.py
    ```
 <img width="1917" height="866" alt="Screenshot 2026-07-26 213429" src="https://github.com/user-attachments/assets/48cc87f5-63b9-4340-aad6-204b5842337b" />
 <img width="1917" height="871" alt="Screenshot 2026-07-26 213527" src="https://github.com/user-attachments/assets/dacaf80d-39a5-48d8-8035-2cd4de2caed3" />
